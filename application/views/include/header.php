@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="<?php echo base_url('assets/css/master.css') ?>">
     <script type="text/javascript" src="<?php echo base_url('node_modules/jquery/dist/jquery.min.js') ?>"></script>
     <script type="text/javascript" src="<?php echo base_url('assets/js/bootstrap.min.js') ?>"></script>
+    <script type="text/javascript" src="<?php echo base_url('assets/js/mmi.js') ?>"></script>
     <title>MMI</title>
   </head>
   <body>

@@ -48,3 +48,30 @@ ul.menu li a{
 ul.menu li a:hover{
   text-decoration: : none;
 }
+
+.about-home{
+  background-image: url('../../images/bg-about.jpg');
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.about-box{
+  background: rgba(255,255,255,0.7);
+  border-radius: 20px
+}
+
+.about-box .figure-caption{
+  padding: 20px;
+}
+
+.section-title{
+  margin-bottom: 20px;
+}
+
+.section-title:after{
+  content: '';
+  border-bottom: solid 2px #6c757d;
+  margin-top: 15px;
+  display: inline-block;
+  width: 40%;
+}
