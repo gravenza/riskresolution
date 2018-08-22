@@ -1,1 +1,50 @@
-@import "bootstrap.css";
+@import url(bootstrap.css);
+
+a{
+  color: #2a275e;
+  font-size: 14px;
+}
+
+a:hover{
+  text-decoration: none;
+  color: #27214f;
+}
+
+.clearer{
+  float: left;
+  width: 100%;
+  margin: 20px 0;
+}
+
+header,content,section{
+  float: left;
+  width: 100%;
+  position: relative;
+}
+
+.logo img{
+  width: 180px;
+}
+
+ul.menu{
+  margin: 20px 0;
+  padding: 0;
+  list-style: none;
+}
+
+ul.menu li{
+  position: relative;
+  display: inline-block;
+}
+
+ul.menu li a{
+  display: block;
+  padding: 10px;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #2a275e;
+}
+
+ul.menu li a:hover{
+  text-decoration: : none;
+}

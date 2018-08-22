@@ -1,6 +1,8 @@
 <?php include "include/header.php" ?>
 <content>
+  <section class="main-slider">
+    <?php include 'include/slider.php'; ?>
+  </section>
 
-  <h1>This Home Page</h1>
 </content>
 <?php include "include/footer.php" ?>
