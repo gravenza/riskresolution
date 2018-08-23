@@ -6,4 +6,15 @@ $(document).ready(function(){
   console.log('Height:'+ windowHeight);
 
   $('.align-items-center').css({'height': windowHeight });
+
+  $('.gallery-slider').bxSlider({
+    auto:true,
+    pagerCustom:'.bx-pager'
+  });
+
+  $('.testimony-slider').bxSlider({
+    auto:true,
+    controls:false
+  });
+
 })

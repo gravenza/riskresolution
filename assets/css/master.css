@@ -1,4 +1,5 @@
 @import url(bootstrap.css);
+@import url(jquery.bxslider.css);
 
 a{
   color: #2a275e;
@@ -16,7 +17,7 @@ a:hover{
   margin: 20px 0;
 }
 
-header,content,section{
+header,content,section,footer{
   float: left;
   width: 100%;
   position: relative;
@@ -74,4 +75,72 @@ ul.menu li a:hover{
   margin-top: 15px;
   display: inline-block;
   width: 40%;
+}
+
+.cellpadding{
+  padding: 60px 0;
+}
+
+.our-program, .gallery{
+  background-color: #efefef;
+}
+
+.our-program figure{
+  position: relative;
+}
+
+.our-program figure .figure-caption{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: #262453;
+  color: #fff;
+  padding: 10px;
+}
+
+.bx-pager{
+  margin-top: 15px;
+}
+
+.bx-pager a{
+  display: inline-block;
+  width: 24.55%
+}
+
+.bx-pager a img{
+  max-width: 100%;
+}
+
+.testimony-slider .media img{
+  width: 200px
+}
+
+.btn-primary{
+  background-color: #262453;
+  border-color: #1b1a40
+}
+
+footer{
+  background-color: #262453;
+  color: #fff;
+}
+
+footer ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+footer li a{
+  color: #fff;
+  display: inline-block;
+  margin-bottom: 10px
+}
+
+footer li a:hover{
+  color: red;
+}
+
+footer .copyright{
+  background-color: #0f131e;
 }
