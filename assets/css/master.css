@@ -38,6 +38,7 @@ ul.menu{
   margin: 20px 0;
   padding: 0;
   list-style: none;
+  text-align: right;
 }
 
 ul.menu li{
@@ -55,6 +56,29 @@ ul.menu li a{
 
 ul.menu li a:hover{
   text-decoration: : none;
+}
+
+.main-slider .carousel-caption {
+  color: #363634;
+  bottom: 50%;
+  transform: translateY(50%);
+  text-align: left;
+}
+
+.main-slider .carousel-caption h1{
+  font-size: 4.5rem;
+}
+
+.main-slider .carousel-caption h6{
+  color: #f9b232;
+}
+
+.main-slider .carousel-caption h6::before{
+  content: '';
+  width: 20%;
+  display: inline-block;
+  border-bottom: solid 2px #f9b232;
+  margin: 0 5px 4px 0;
 }
 
 .about-home{
@@ -75,12 +99,13 @@ ul.menu li a:hover{
   margin-bottom: 20px;
 }
 
-.section-title:after{
-  content: '';
-  border-bottom: solid 2px #6c757d;
-  margin-top: 15px;
+.section-title h1{
   display: inline-block;
-  width: 40%;
+  background: #e40613;
+  padding: 10px 50px;
+  border-radius: 30px;
+  color: #f8b236;
+  margin: 0;
 }
 
 .cellpadding{
@@ -103,7 +128,14 @@ section.services ul li{
 }
 
 section.services ul li i{
-  font-size: 12px;
+  font-size: 10px;
+  margin-right: 10px;
+}
+
+section.projects .figure .figure-caption h1{
+  font-size: 4.5rem;
+  color: #e40613;
+  font-weight: bold;
 }
 
 .our-program figure .figure-caption{
@@ -138,7 +170,8 @@ section.services ul li i{
 }
 
 footer{
-  background-color: #262453;
+  background: url(../../images/bg3-01.jpg)no-repeat 0 0;
+  background-size: cover;
   color: #fff;
 }
 
@@ -159,5 +192,17 @@ footer li a:hover{
 }
 
 footer .copyright{
-  background-color: #0f131e;
+  background-color: #e40613;
+}
+
+footer .form-control{
+  background: none;
+  border: 0;
+  border-bottom: solid thin #ccc;
+  color: #fff;
+}
+
+footer .form-control:focus{
+  background: none;
+  color: #fff;
 }

@@ -5,7 +5,7 @@ $(document).ready(function(){
   console.log('Width:'+ windowWidth);
   console.log('Height:'+ windowHeight);
 
-  $('.align-items-center').css({'height': windowHeight });
+  //$('.align-items-center').css({'height': windowHeight });
 
   $('.gallery-slider').bxSlider({
     auto:true,
