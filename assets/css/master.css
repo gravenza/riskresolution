@@ -58,8 +58,7 @@ ul.menu li a:hover{
 }
 
 .about-home{
-  background-image: url('../../images/bg-about.jpg');
-  background-repeat: no-repeat;
+  background: #f4f4f4;
   height: 100%;
 }
 
@@ -88,12 +87,23 @@ ul.menu li a:hover{
   padding: 60px 0;
 }
 
-.our-program, .gallery{
-  background-color: #efefef;
+section.services{
+  background: url(../../images/bg2-01.jpg)no-repeat 0 0;
+  background-size: cover;
 }
 
-.our-program figure{
-  position: relative;
+section.services ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+section.services ul li{
+  margin-bottom: 20px;
+}
+
+section.services ul li i{
+  font-size: 12px;
 }
 
 .our-program figure .figure-caption{

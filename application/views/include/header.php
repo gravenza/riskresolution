@@ -11,7 +11,7 @@
     <script type="text/javascript" src="<?php echo base_url('assets/js/jquery.bxslider.js') ?>"></script>
     <script type="text/javascript" src="<?php echo base_url('assets/js/jquery.bxslider.min.js') ?>"></script>
     <script type="text/javascript" src="<?php echo base_url('assets/js/mmi.js') ?>"></script>
-    <title>MMI</title>
+    <title>RiskResolution</title>
   </head>
   <body>
 
