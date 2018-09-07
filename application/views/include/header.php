@@ -27,14 +27,11 @@
 
             <div class="col-lg-8 col-md-8 col-sm-12 col-12">
               <ul class="menu">
-                <li><a href="<?php echo site_url() ?>">Home</a></li>
-                <li><a href="<?php echo site_url('people') ?>">People</a></li>
-                <li><a href="<?php echo site_url('career') ?>">Career</a></li>
-                <li><a href="<?php echo site_url('articles') ?>">News &amp; Article</a></li>
-                <li><a href="<?php echo site_url('events') ?>">Events</a></li>
-                <li><a href="<?php echo site_url('gallery') ?>">Gallery</a></li>
-                <li><a href="<?php echo site_url('contact') ?>">Contact Us</a></li>
-                <li><a href="#.">Search</a></li>
+                <li><a href="<?php echo site_url() ?>">01 - Home</a></li>
+                <li><a href="<?php echo site_url('about-us') ?>">02 - About Us</a></li>
+                <li><a href="<?php echo site_url('services') ?>">03 - Services</a></li>
+                <li><a href="<?php echo site_url('projects') ?>">04 - Projects</a></li>
+                <li><a href="<?php echo site_url('contact') ?>">05 - Contact</a></li>
               </ul>
             </div>
           </div>
